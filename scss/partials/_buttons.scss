@@ -1,0 +1,26 @@
+.btn-primary{
+
+	background: $color-blue;
+	color: $color-white;
+    margin-bottom: 4rem;
+    @include border-radius(5px);
+
+    &:hover {
+        border: 1px solid $color-purple;
+        background: $color-purple;
+		color: $color-white;
+    }
+}
+
+.btn-purple {
+	background: $color-blue;
+	color: $color-white;
+    margin-bottom: 4rem;
+    @include border-radius(10px);
+
+	&:hover {
+		border: 1px solid $color-purple;
+        background: $color-purple;
+		color: $color-white;
+	}
+}

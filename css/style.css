@@ -1,0 +1,87 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a; }
+
+.navbar {
+  background: #78379d; }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 0.5rem; }
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 300;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem; }
+    .navbar .navbar-nav .nav-link:hover {
+      color: #0275d8; }
+
+.carousel {
+  margin-bottom: 4rem; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10; }
+  @media (min-width: 576px) and (max-width: 768px) {
+    .carousel-caption {
+      font-size: 2.4rem; } }
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777; }
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem; }
+
+.place-list .card {
+  background: #f0f0f0;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border: 1px solid transparent; }
+  .place-list .card .card-title {
+    margin-top: 20px;
+    font-weight: 600; }
+  .place-list .card .card-text {
+    color: #585454;
+    margin-top: 10px;
+    padding: 0.5rem; }
+  .place-list .card .btn-purple {
+    display: block;
+    text-align: center; }
+    @media (min-width: 992px) and (max-width: 1200px) {
+      .place-list .card .btn-purple {
+        overflow: hidden;
+        text-overflow: ellipsis; } }
+    @media (min-width: 576px) and (max-width: 768px) {
+      .place-list .card .btn-purple {
+        overflow: hidden;
+        text-overflow: ellipsis; } }
+
+.btn-primary {
+  background: #0275d8;
+  color: #fff;
+  margin-bottom: 4rem;
+  border-radius: 5px; }
+  .btn-primary:hover {
+    border: 1px solid #78379d;
+    background: #78379d;
+    color: #fff; }
+
+.btn-purple {
+  background: #0275d8;
+  color: #fff;
+  margin-bottom: 4rem;
+  border-radius: 10px; }
+  .btn-purple:hover {
+    border: 1px solid #78379d;
+    background: #78379d;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
